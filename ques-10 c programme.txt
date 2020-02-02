@@ -1,0 +1,17 @@
+# include<stdio.h>
+void main()
+{
+    
+    char s;
+    printf("enter any character");
+    scanf("%c",&s);
+    if((s>='a'&& s<='z')||(s>='A' &&s<='Z' ))
+    printf("it is alphabet");
+    else
+    if(s>='0' && s<='9')
+    printf("it is a digit");
+    else
+    printf("it is special character");
+    
+}
+
